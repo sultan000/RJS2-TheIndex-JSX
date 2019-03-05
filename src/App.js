@@ -31,9 +31,13 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>J.K. Rowling</span>
+                        <span>
+                          {authors[0].first_name} {authors[0].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">7 books</small>
+                      <small className="card-text">
+                        {authors[0].books.length} books
+                      </small>
                     </div>
                   </div>
                 </div>
@@ -48,9 +52,13 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>George R.R. Martin</span>
+                        <span>
+                          {authors[1].first_name} {authors[1].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">5 books</small>
+                      <small className="card-text">
+                        {authors[1].books.length} books
+                      </small>
                     </div>
                   </div>
                 </div>
@@ -65,9 +73,34 @@ class App extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span>J.R.R Tolkein</span>
+                        <span>
+                          {authors[2].first_name} {authors[2].last_name}
+                        </span>
                       </h5>
-                      <small className="card-text">6 books</small>
+                      <small className="card-text">
+                        {authors[2].books.length} books
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-12">
+                  <div className="card">
+                    <div className="image">
+                      <img
+                        className="card-img-top img-fluid"
+                        src="https://literature.britishcouncil.org/assets/Uploads/writers/_resampled/CroppedImage680680-Margaret-Atwood-c-Jean-Malek-web.jpg"
+                        alt="J.R.R Tolkein"
+                      />
+                    </div>
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        <span>
+                          {authors[3].first_name} {authors[3].last_name}
+                        </span>
+                      </h5>
+                      <small className="card-text">
+                        {authors[3].books.length} books
+                      </small>
                     </div>
                   </div>
                 </div>
